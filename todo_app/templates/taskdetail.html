@@ -1,0 +1,26 @@
+{% load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <Link rel="stylesheet" href="{%static 'css/taskdetail.css'%}">
+    <title>Title</title>
+</head>
+<body>
+<nav>
+    <div class="logo">
+        <p>Detail</p>
+    </div>
+    <ul>
+        <li><a href="{% url 'task1' %}">Task List</a></li>
+        <li><a href="{% url 'login' %}">Logout</a></li>
+    </ul>
+</nav>
+<br><br>
+<div class="frm">
+    <h2>Task : {{tasks.title}}</h2>
+    <h2>Description : {{tasks.description}}</h2>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,90 @@
+body{
+     background: url("/static/images/taskcreate.jpg");
+     color: white;
+     background-position:center;
+     background-position:cover;
+     margin:0%
+}
+nav{
+    height:100px;
+    line-height:50px;
+    margin-top:0px;
+    background-image:linear-gradient(#597ade,#bfccf2);
+}
+
+nav .logo p{
+    margin-left:40%;
+    font-size:40px;
+    font-weight:bold;
+    float:left;
+    color:black;
+    text-transform:uppercase;
+    letter-spacing:1.5px;
+    cursor:pointer;
+}
+
+nav ul{
+    float:right;
+}
+
+nav li{
+    display:inline;
+    list-style:none;
+}
+
+nav li a{
+    font-size:18px;
+    padding:0px 10px;
+    color:black;
+    text-decoration:none;
+}
+
+nav li a:hover{
+    color:#ff8c69;
+    transition:all 0.4s ease 0s;
+    cursor:pointer;
+
+}
+
+.frm{
+    float:center;
+    margin-top:5%;
+    color:#012733;
+}
+.myform{
+    border-radius: 10px;
+    align:center;
+    background-color:#c2cef3;
+    opacity: 0.8;
+    width:300px;
+    height:350px;
+    padding:60px;
+    margin-left:35%;
+    font-size:20px;
+    font-weight:bold;
+}
+
+form input{
+    font-color:Black;
+    font-size:20px;
+    font-weight:bold;
+    background-color:White;
+}
+.btn{
+    align:center;
+    color: #012733;
+    padding: 20px;
+    height:50px;
+    width: 100px;
+    text-align: center;
+    border: 4px;
+    font-size: 20px;
+    margin-top: 1px;
+    margin-left: 100px;
+    box-shadow: 0 2px #012733;
+    cursor:pointer;
+}
+
+a{
+    cursor: crosshair;
+}
