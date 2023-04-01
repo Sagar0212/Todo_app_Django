@@ -6,6 +6,7 @@ from django.views.generic import ListView, CreateView, UpdateView, DeleteView, D
 from .models import Tasks, Register, Login
 from .forms import RegisterForm, LoginForm
 
+
 # Create your views here.
 
 
